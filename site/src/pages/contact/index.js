@@ -39,7 +39,8 @@ export default class Index extends React.Component {
         <section className="section">
           <div className="container">
             <div className="content">
-              <h1>Contact</h1>
+              <h1>Get in Touch</h1>
+              <h3>Have a project, or looking for a consultation? Don't hesitate to reach out today!</h3>
               <form
                 name="contact"
                 method="post"
