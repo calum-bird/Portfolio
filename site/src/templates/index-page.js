@@ -6,7 +6,19 @@ import Layout from '../components/Layout'
 import Features from '../components/Features'
 import BlogRoll from '../components/BlogRoll'
 
-export function test(some_vars) {
+export /**
+ * This function prints a message to the console.
+ * @param {number} some_vars - The number of times to print the message.
+ *
+ * Written by Trelent
+ */
+function test(some_vars) {
+  console.log("filler");
+  console.log("filler");
+  console.log("filler");
+  console.log("filler");
+  console.log("filler");
+  console.log("filler");
   if(some_vars != 0) {
     for(var i = 0; i < some_vars; i++) { 
       console.log("Iteration " + i);
